@@ -17,7 +17,7 @@
 ## Overview
 
 Aegis Injector is a **modern, GUI-based shared library injector** designed specifically for **Counter-Strike 2** and **CS:GO** on Linux. Built with Rust and the Iced framework, it provides a clean, dark-themed interface that handles the entire injection process — from PID detection to `dlopen()` execution via GDB.
-
+The project will be developed, among other things, more games will be added to which the cheat/library can be injected.
 
 
 ---

@@ -33,19 +33,6 @@ The project will be developed, among other things, more games will be added to w
 
 
 ## How It Works
-┌─────────────┐     ┌──────────────┐     ┌─────────────────┐
-│  User picks │────>│  App finds   │────>│  Calls gdb with │
-│   .so file  │     │   game PID   │     │   pkexec root   │
-└─────────────┘     └──────────────┘     └────────┬────────┘
-                                                  │
-                                                  ▼
-                                           ┌─────────────┐
-                                           │ call dlopen │
-                                           │  in target  │
-                                           └─────────────┘
-
-
-Under the hood:
 1. `pgrep -f` locates the game binary (CS2: `linuxsteamrt64/cs2`, CS:GO: `csgo_linux64`)
 2. Zombie processes are filtered out via `/proc/PID/status`
 3. Highest CPU usage PID is selected

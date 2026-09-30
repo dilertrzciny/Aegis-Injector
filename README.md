@@ -68,3 +68,12 @@ Under the hood:
 
 ```bash
 Just download the program from the release.
+```
+## Disclaimer
+
+This tool is provided for educational and research purposes only.
+Using injectors in online games violates their Terms of Service and may result in:
+- Account bans (VAC, Overwatch, etc.)
+- Loss of purchased items
+- Legal consequences depending on your jurisdiction
+Use at your own risk. The author is not responsible for any consequences resulting from the use of this software.

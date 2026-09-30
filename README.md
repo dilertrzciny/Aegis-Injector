@@ -76,4 +76,6 @@ Using injectors in online games violates their Terms of Service and may result i
 - Account bans (VAC, Overwatch, etc.)
 - Loss of purchased items
 - Legal consequences depending on your jurisdiction
-Use at your own risk. The author is not responsible for any consequences resulting from the use of this software.
+Use at your own risk.
+
+The author is not responsible for any consequences resulting from the use of this software.
